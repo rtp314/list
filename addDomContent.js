@@ -4,7 +4,7 @@
             <div class="col-12">
 
                 <!-- Card -->
-                <div class="card" data-list='{"valueNames": ["item-name", "item-title", "item-email", "item-score", "item-company"], "page": 5, "pagination": {"paginationClass": "list-pagination"}}' id="contactList">
+                <div class="card" id="contactList">
                     <div class="card-header">
                         <div class="row align-items-center">
                             <div class="col">
@@ -38,7 +38,7 @@
 
                                     </th>
                                     <th>
-                                        <a class="sort text-muted" data-sort="item-name" href="#">Name</a>
+                                        <a class="sort text-muted" data-sort="item-name" data-order='asc' href="#">Name</a>
                                     </th>
                                     <th>
                                         <a class="sort text-muted" data-sort="item-title" href="#">Job title</a>
@@ -52,6 +52,43 @@
                                 </tr>
                             </thead>
                             <tbody class="list fs-base">
+                                <tr>
+                                    <td>
+
+                                        <!-- Checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" value='10' data-listid='1' data-itemid='1' type="checkbox">
+                                            <label class="form-check-label" for="listCheckboxOne"></label>
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <span class="item-name">Arthur Dent</span>
+                                    </td>
+                                    <td>
+                                        <span class="item-title">Traveller</span>
+                                    </td>
+                                    <td>
+                                        <span class="item-score badge bg-danger-soft">9/10</span>
+                                    </td>
+                                    <td>
+                                        <a class="item-company text-reset" href="team-overview.html">Github</a>
+                                    </td>
+                                    <td class="text-end">
+
+                                        <!-- Dropdown -->
+                                        <div class="dropdown">
+                                            <a class="dropdown-ellipses dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fe fe-more-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="#!" class="dropdown-item">Action</a>
+                                                <a href="#!" class="dropdown-item">Another action</a>
+                                                <a href="#!" class="dropdown-item">Something else here</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
 

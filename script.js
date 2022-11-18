@@ -5,11 +5,23 @@ function getCheckedIds(checked) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  recreateList()
+  const options = {
+    valueNames: ["item-name", "item-title", "item-email", "item-score", "item-company"], 
+    page: 10, 
+    pagination: {paginationClass: "list-pagination"}
+  }
+  createList('contactList', options)
 })
 
-function recreateList() {
-  const lists = document.querySelectorAll('[data-list]');
+
+/**
+ * Create a List given an id and options
+ * @param {string} listId the id of the element containing list items
+ * @param {object} optionsObj options to initialise list
+ */
+function createList(listId, optionsObj) {
+
+  const list = document.getElementById(listId)
   const sorts = document.querySelectorAll('[data-sort]');
 
   function init(list) {
@@ -21,7 +33,7 @@ function recreateList() {
     const listPagination = list.querySelectorAll('.list-pagination');
     const listPaginationPrev = list.querySelector('.list-pagination-prev');
     const listPaginationNext = list.querySelector('.list-pagination-next');
-    const listOptions = list.dataset.list && JSON.parse(list.dataset.list);
+    const listOptions = optionsObj || (list.dataset.list && JSON.parse(list.dataset.list));
 
     const defaultOptions = {
       listClass: 'list',
@@ -68,8 +80,6 @@ function recreateList() {
           listObj.show(prevItem, listObj.page);
         }
       });
-
-      lists[list] = listObj
     }
 
     // Checkboxes
@@ -125,10 +135,8 @@ function recreateList() {
     }
   }
 
-  if (typeof List !== 'undefined' && lists) {
-    [].forEach.call(lists, function (list) {
-      init(list);
-    });
+  if (typeof List !== 'undefined' && list) {
+    init(list)
   }
 
   if (typeof List !== 'undefined' && sorts) {
