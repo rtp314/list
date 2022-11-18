@@ -57,7 +57,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" value='10' data-list-id='1' data-item-id='2' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" value='10' data-listid='1' data-itemid='2' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxOne"></label>
                                         </div>
 
@@ -94,7 +94,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-list-id='1' data-item-id='3' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-listid='1' data-itemid='3' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTwo"></label>
                                         </div>
 
@@ -135,7 +135,7 @@
                                 <tr>
                                     <td>
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-list-id='1' data-item-id='4' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-listid='1' data-itemid='4' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTen"></label>
                                         </div>
                                     </td>
@@ -178,7 +178,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-list-id='1' data-item-id='5' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-listid='1' data-itemid='5' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxOne"></label>
                                         </div>
 
@@ -215,7 +215,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-list-id='1' data-item-id='6' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-listid='1' data-itemid='6' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTwo"></label>
                                         </div>
 
@@ -256,7 +256,7 @@
                                 <tr>
                                     <td>
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-list-id='1' data-item-id='7' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-listid='1' data-itemid='7' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTen"></label>
                                         </div>
                                     </td>
@@ -299,7 +299,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-list-id='1' data-item-id='8' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-listid='1' data-itemid='8' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxOne"></label>
                                         </div>
 
@@ -336,7 +336,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-list-id='1' data-item-id='9' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-listid='1' data-itemid='9' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTwo"></label>
                                         </div>
 
@@ -377,7 +377,7 @@
                                 <tr>
                                     <td>
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-list-id='1' data-item-id='10' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-listid='1' data-itemid='10' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTen"></label>
                                         </div>
                                     </td>
@@ -420,7 +420,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-list-id='1' data-item-id='11' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxOne" data-listid='1' data-itemid='11' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxOne"></label>
                                         </div>
 
@@ -457,7 +457,7 @@
 
                                         <!-- Checkbox -->
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-list-id='1' data-item-id='12' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTwo" data-listid='1' data-itemid='12' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTwo"></label>
                                         </div>
 
@@ -498,7 +498,7 @@
                                 <tr>
                                     <td>
                                         <div class="form-check">
-                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-list-id='1' data-item-id='13' type="checkbox">
+                                            <input class="form-check-input list-checkbox" id="listCheckboxTen" data-listid='1' data-itemid='13' type="checkbox">
                                             <label class="form-check-label" for="listCheckboxTen"></label>
                                         </div>
                                     </td>
