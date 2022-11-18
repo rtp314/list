@@ -1,6 +1,3 @@
-
-const lists = {}
-
 function getCheckedIds(checked) {
   const ids = checked.map(checkbox => checkbox.dataset?.['item-id'])
   console.log('list Id', checked?.[0]?.dataset?.['list-id'])
